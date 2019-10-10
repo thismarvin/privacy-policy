@@ -20,6 +20,18 @@ h1, h2, h3, h4, h5, h6, p, li {
     text-align: left;
 }
 
+h1 {
+    font-size: 60px;
+}
+
+h4 {
+    font-size: 18px;
+} 
+
+h3 {
+    font-size: 40px;
+}
+
 p {
     font-size: 17px;
     line-height: 30px;
@@ -44,6 +56,7 @@ background: rgb(50, 50, 50, 100);
         padding-top: 20%;
         padding-bottom: 20%;
     }
+
     p {
         font-size: 24px;
         line-height: 48px;
