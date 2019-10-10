@@ -1,8 +1,10 @@
+
+
 html {
     height: 100%;
     display: table;
     margin: auto;
-    padding: 30px;
+    padding: 20px;
 }
 
 body {
@@ -12,17 +14,44 @@ body {
     max-width: 700px;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    font-family: 'Roboto', sans-serif;
+h1, h2, h3, h4, h5, h6, p, li {
+    font-family: 'Roboto', monospace;
     color: white;
     text-align: left;
 }
 
 p {
     font-size: 17px;
-    line-height: 22px;
+    line-height: 30px;
+    margin-bottom: 30px;
 }
 
-#info {
-    margin-bottom: 40px;
+a {
+    color: skyblue;
+}
+
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: rgb(50, 50, 50, 100);
+}
+
+@media only screen {
+    body {
+        max-width: 800px;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+    p {
+        font-size: 24px;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+
+    li {
+        font-size: 24px;
+        margin-bottom: 22px;
+    }
 }
